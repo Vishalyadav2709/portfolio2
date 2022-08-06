@@ -23,29 +23,33 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
+    firstName: "Vishal",
+    lastName: "Yadav",
+    initials: "Vishal ", // the example uses first and last, but feel free to use three or more if you like.
     position: "a Full Stack Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
-    baseColor: colors[0],
+    baseColor: colors[1],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
             emoji: '☕',
             text: 'fueled by coffee'
         },
         {
-            emoji: '🌎',
-            text: 'based in the US'
+            emoji: " 🏫 ",
+            text: "Student at Atharva College Of Engineering"
         },
         {
-            emoji: "💼",
-            text: "Systems Engineer at Google"
+            emoji: '📖',
+            text: '3rd Year INFT Branch'
+        },
+        {
+            emoji: ' 👨‍💻 ',
+            text: 'Curious To Learn New Things'
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "vishal.tyadav2709@gmail.com"
         }
     ],
     socials: [
@@ -56,7 +60,7 @@ export const info = {
         },
         {
             link: "https://instagram.com",
-            icon: 'fa fa-instagram',
+            icon: 'fa fa-instagram', 
             label: 'instagram'
         },
         {
@@ -104,6 +108,32 @@ export const info = {
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
+    ],
+    internship: [
+        {
+            no : "1.",
+            name:"Oasis Infobyte",
+            position: "Webdeveloper Intern",
+            date : "May2022-Jun2022"
+        },
+        {
+            no : "2.",
+            name:"LetsGrow More",
+            position: "Webdeveloper Intern",
+            date : "Apr2022-May2022"
+        },
+        {
+            no : "3.",
+            name:"Ten Entrepreneurship Network",
+            position: "Wix Developer",
+            date : "Mar2022-Apr2022"
+        },
+        {
+            no : "4.",
+            name:"Ten Entrepreneurship Network",
+            position: "SpringBoot Developer",
+            date : "Oct2021-Jan2022"
+        }
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {

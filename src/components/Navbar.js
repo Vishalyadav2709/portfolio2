@@ -17,15 +17,14 @@ const links = [
         active: 'about'
     },
     {
-        name: info.initials,
-        type: 'initials',
-        to: '/',
-        active: 'home'
+        name: 'Projects',
+        to: '/projects',
+        active: 'projects'
     },
     {
-        name: 'Portfolio',
-        to: '/portfolio',
-        active: 'portfolio'
+        name: 'InternShips',
+        to: '/internship',
+        active: 'internship'
     }
 ]
 
@@ -33,10 +32,12 @@ export default function Navbar({darkMode, handleClick}) {
     const location = useLocation()
     const [active, setActive] = useState(location.pathname === '/' ? 'home' : location.pathname.slice(1, location.pathname.length));
 
+    
+
     return (
         <Box component={'nav'} width={'100%'}>
-            <Box component={'ul'} display={'flex'} justifyContent={'center'} alignItems={'center'}
-                 gap={{xs: '2rem', md: '8rem'}}
+            <Box component={'ul'} display={'flex'} justifyContent={'center'} alignItems={'center'} 
+                 gap={{xs: '2rem', md: '8rem'}} margin={"14px 0px 20px 0px"}
                  textTransform={'lowercase'} fontSize={'1rem'}>
                 {links.map((link, index) => (
                     <Box key={index} component={'li'} className={(link.active === active && !link.type) && Style.active}
