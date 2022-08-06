@@ -1,9 +1,9 @@
 import self from "../img/self.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+import book from "../img/book.png"
+import flip from "../img/flip.png"
+import odec from "../img/odec.png"
+import ques from "../img/ques.png"
+
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -54,39 +54,31 @@ export const info = {
     ],
     socials: [
         {
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-        {
-            link: "https://instagram.com",
+            link: "https://www.instagram.com/itsyadavvishal/",
             icon: 'fa fa-instagram', 
-            label: 'instagram'
+            label: 'instagram',
+            htmlcolor:'red'
+           
         },
         {
-            link: "https://github.com",
+            link: "https://github.com/Vishalyadav2709",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
+            link: "https://www.linkedin.com/in/vishal-yadav-0a8365209/",
             icon: "fa fa-linkedin",
             label: 'linkedin'
-        },
-        {
-            link: "https://twitter.com",
-            icon: "fa fa-twitter",
-            label: 'twitter'
         }
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Vishal. I am currently prefinal year student of BE (INFT) from Atharva College of Engineering.I am self motivated,critical thinker and hardworking person, I take up all learning opportunities that enhances my skills.Currently I am building skills in MERN by creating different kind of projects.",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'mongodb'],
+            exposedTo: ['nodejs', 'python', 'express', 'C','C++']
         }
     ,
     hobbies: [
@@ -95,8 +87,8 @@ export const info = {
             emoji: '📖'
         },
         {
-            label: 'theater',
-            emoji: '🎭'
+            label: 'cricket',
+            emoji: '🏏'
         },
         {
             label: 'movies',
@@ -138,33 +130,27 @@ export const info = {
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
+            live: "https://github.com/Vishalyadav2709/Mern-Bookstore", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/Vishalyadav2709/Mern-Bookstore", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: book
         },
         {
             title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock2
+            live: "https://reactquestionapp.herokuapp.com/",
+            source: "https://github.com/Vishalyadav2709/Question-app",
+            image: ques
         },
         {
             title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock3
+            live: "https://vishalyadav2709.github.io/Odec-Infotech/",
+            source: "https://github.com/Vishalyadav2709/Odec-Infotech",
+            image: odec
         },
         {
             title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
-        },
-        {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
+            live: "https://vishalyadav2709.github.io/Flipcart-web/",
+            source: "https://github.com/Vishalyadav2709/Flipcart-web",
+            image: flip
         }
     ]
 }
