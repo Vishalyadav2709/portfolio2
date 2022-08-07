@@ -3,12 +3,14 @@ import book from "../img/book.png"
 import flip from "../img/flip.png"
 import odec from "../img/odec.png"
 import ques from "../img/ques.png"
+import portfolio from "../img/portfolio.png"
+import Resume from "../resume/Resume.pdf"
 
 
-/* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
-how to make this template work best for you! */
 
-export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
+
+export let colors = ["rgb(65, 227, 107)", "rgb(101, 17, 203)"];
+
 /*
 I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
 These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
@@ -53,11 +55,12 @@ export const info = {
         }
     ],
     socials: [
+      
         {
             link: "https://www.instagram.com/itsyadavvishal/",
             icon: 'fa fa-instagram', 
             label: 'instagram',
-            htmlcolor:'red'
+          
            
         },
         {
@@ -127,27 +130,39 @@ export const info = {
             date : "Oct2021-Jan2022"
         }
     ],
-    portfolio: [ // This is where your portfolio projects will be detailed
+    resume :[
         {
-            title: "Project 1",
+            title:"Resume",
+            link: Resume
+        }
+    ],
+    portfolio: [ // This is where your portfolio projects will be detailed
+    {
+        title: "Project 1",
+        live: "https://github.com/Vishalyadav2709/Mern-Bookstore", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+        source: "https://github.com/Vishalyadav2709/Mern-Bookstore", // this should be a link to the **repository** of the project, where the code is hosted.
+        image: portfolio
+    },
+        {
+            title: "Project 2",
             live: "https://github.com/Vishalyadav2709/Mern-Bookstore", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/Vishalyadav2709/Mern-Bookstore", // this should be a link to the **repository** of the project, where the code is hosted.
             image: book
         },
         {
-            title: "Project 2",
+            title: "Project 3",
             live: "https://reactquestionapp.herokuapp.com/",
             source: "https://github.com/Vishalyadav2709/Question-app",
             image: ques
         },
         {
-            title: "Project 3",
+            title: "Project 4",
             live: "https://vishalyadav2709.github.io/Odec-Infotech/",
             source: "https://github.com/Vishalyadav2709/Odec-Infotech",
             image: odec
         },
         {
-            title: "Project 4",
+            title: "Project 5",
             live: "https://vishalyadav2709.github.io/Flipcart-web/",
             source: "https://github.com/Vishalyadav2709/Flipcart-web",
             image: flip

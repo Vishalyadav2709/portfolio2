@@ -6,6 +6,7 @@ import EmojiBullet from "./EmojiBullet";
 import SocialIcon from "./SocialIcon";
 import {Box} from "@mui/material";
 import {info} from "../../info/Info";
+import pdf from "../../resume/Resume.pdf"
 
 export default function Home() {
 
@@ -19,11 +20,18 @@ export default function Home() {
             <h1>Hi, I'm <span style={{background: info.gradient, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>{info.firstName}</span><span className={Style.hand}>🤚</span>
             </h1>
             <h2>I'm {info.position}.</h2>
+
+            
+            <h2 > <a href={pdf} target='_blank' rel="noreferrer" > <span style={{background: info.gradient , WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>Resume</span></a> </h2>
+           
+           
             <Box component={'ul'} p={'0.8rem'}>
                {info.miniBio.map((bio, index) => (
                   <EmojiBullet key={index} emoji={bio.emoji} text={bio.text}/>
+                  
                ))}
             </Box>
+           
             <Box display={'flex'} gap={'3rem'} justifyContent={'center'} fontSize={{xs: '2rem', md: '2.5rem'}}>
                {info.socials.map((social, index) => (
                   <SocialIcon key={index} link={social.link} icon={social.icon} label={social.label} />

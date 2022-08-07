@@ -3,6 +3,7 @@ import Style from './About.module.scss';
 import Terminal from "./Terminal";
 import {Box} from "@mui/material";
 import {info} from "../../info/Info";
+import pdf from "../../resume/Resume.pdf"
 
 
 export default function About() {
@@ -49,12 +50,26 @@ export default function About() {
             </ul>
         </>;
     }
+    function resumeText() {
+        return <>
+            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd
+                resume</p>
+            <p><span style={{color: info.baseColor}}>resume <span
+                className={Style.green}>(main)</span> $</span> ls</p>
+            <ul>
+                {info.resume.map((resum, index) => (
+                    <li key={index}> <a href={pdf} target='_blank' rel="noreferrer"> <Box component={'span'} mr={'1rem'} >Open {resum.title}</Box> </a></li>
+                ))}
+            </ul>
+        </>;
+    }
 
     return (
         <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>
             <Terminal text={aboutMeText()}/>
             <Terminal text={skillsText()}/>
             <Terminal text={miscText()}/>
+            <Terminal text={resumeText()}/>
         </Box>
     )
 }
