@@ -3,6 +3,7 @@ import book from "../img/book.png"
 import flip from "../img/flip.png"
 import odec from "../img/odec.png"
 import ques from "../img/ques.png"
+import todo from "../img/todo.png"
 import portfolio from "../img/portfolio.png"
 import Resume from "../resume/Resume.pdf"
 
@@ -137,32 +138,38 @@ export const info = {
         }
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
-    {
+         {
         title: "Project 1",
+        live: "https://todo-web27.netlify.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+        source: "https://github.com/Vishalyadav2709/todo-list-firebase-", // this should be a link to the **repository** of the project, where the code is hosted.
+        image: todo
+    },
+    {
+        title: "Project 2",
         live: "https://yadavvishal.netlify.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
         source: "https://github.com/Vishalyadav2709/portfolio2", // this should be a link to the **repository** of the project, where the code is hosted.
         image: portfolio
     },
         {
-            title: "Project 2",
+            title: "Project 3",
             live: "https://github.com/Vishalyadav2709/Mern-Bookstore", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/Vishalyadav2709/Mern-Bookstore", // this should be a link to the **repository** of the project, where the code is hosted.
             image: book
         },
         {
-            title: "Project 3",
+            title: "Project 4",
             live: "https://reactquestionapp.herokuapp.com/",
             source: "https://github.com/Vishalyadav2709/Question-app",
             image: ques
         },
         {
-            title: "Project 4",
+            title: "Project 5",
             live: "https://vishalyadav2709.github.io/Odec-Infotech/",
             source: "https://github.com/Vishalyadav2709/Odec-Infotech",
             image: odec
         },
         {
-            title: "Project 5",
+            title: "Project 6",
             live: "https://vishalyadav2709.github.io/Flipcart-web/",
             source: "https://github.com/Vishalyadav2709/Flipcart-web",
             image: flip
