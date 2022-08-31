@@ -4,7 +4,7 @@ import flip from "../img/flip.png"
 import odec from "../img/odec.png"
 import ques from "../img/ques.png"
 import todo from "../img/todo1.png"
-import portfolio from "../img/portfolio.png"
+import portfolio from "../img/portfolio.jpg"
 import Resume from "../resume/Resume.pdf"
 
 
