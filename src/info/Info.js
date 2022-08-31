@@ -108,24 +108,30 @@ export const info = {
     internship: [
         {
             no : "1.",
+            name:"NullClass",
+            position: "Webdeveloper Training",
+            date : "Present"
+        },
+        {
+            no : "2.",
             name:"Oasis Infobyte",
             position: "Webdeveloper Intern",
             date : "May2022-Jun2022"
         },
         {
-            no : "2.",
+            no : "3.",
             name:"LetsGrow More",
             position: "Webdeveloper Intern",
             date : "Apr2022-May2022"
         },
         {
-            no : "3.",
+            no : "4.",
             name:"Ten Entrepreneurship Network",
             position: "Wix Developer",
             date : "Mar2022-Apr2022"
         },
         {
-            no : "4.",
+            no : "5.",
             name:"Ten Entrepreneurship Network",
             position: "SpringBoot Developer",
             date : "Oct2021-Jan2022"
