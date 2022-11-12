@@ -36,7 +36,7 @@ export const info = {
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
             emoji: '☕',
-            text: 'fueled by coffee'
+            text: 'fueled by Tea'
         },
         {
             emoji: " 🏫 ",
@@ -106,32 +106,27 @@ export const info = {
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     internship: [
+      
         {
             no : "1.",
-            name:"NullClass",
-            position: "Webdeveloper Training",
-            date : "Present"
-        },
-        {
-            no : "2.",
             name:"Oasis Infobyte",
             position: "Webdeveloper Intern",
             date : "May2022-Jun2022"
         },
         {
-            no : "3.",
+            no : "2.",
             name:"LetsGrow More",
             position: "Webdeveloper Intern",
             date : "Apr2022-May2022"
         },
         {
-            no : "4.",
+            no : "3.",
             name:"Ten Entrepreneurship Network",
             position: "Wix Developer",
             date : "Mar2022-Apr2022"
         },
         {
-            no : "5.",
+            no : "4.",
             name:"Ten Entrepreneurship Network",
             position: "SpringBoot Developer",
             date : "Oct2021-Jan2022"
