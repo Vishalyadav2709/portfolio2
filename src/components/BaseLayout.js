@@ -33,7 +33,7 @@ export default function BaseLayout() {
             <Grid item>
                <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
                     py={'1.5rem'} sx={{opacity: 1}} width={'100%'} fontSize={'13px'}>
-                  <p>Created by <a href={'https://github.com/Vishalyadav2709'} target='_blank'>Vishal Yadav</a></p>
+                  <p>Created by <a href={'https://github.com/Vishalyadav2709'} >Vishal Yadav</a></p>
                   <p>&copy; 2022</p>
                </Box>
             </Grid>
