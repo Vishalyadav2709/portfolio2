@@ -5,7 +5,7 @@ import odec from "../img/odec.png"
 import ques from "../img/ques.png"
 import todo from "../img/todo1.png"
 import portfolio from "../img/portfolio.png"
-import Resume from "../resume/Resume.pdf"
+import Resume1 from "../resume/Resume1.pdf"
 
 
 
@@ -135,7 +135,7 @@ export const info = {
     resume :[
         {
             title:"Resume",
-            link: Resume
+            link: Resume1
         }
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
