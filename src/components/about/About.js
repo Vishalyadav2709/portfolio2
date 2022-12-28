@@ -3,7 +3,7 @@ import Style from './About.module.scss';
 import Terminal from "./Terminal";
 import {Box} from "@mui/material";
 import {info} from "../../info/Info";
-import pdf from "../../resume/Resume.pdf"
+import pdf from "../../resume/Resume1.pdf"
 
 
 export default function About() {
