@@ -6,7 +6,7 @@ import ques from "../img/ques.png"
 import plant from "../img/plant.png"
 import todo from "../img/todo1.png"
 import portfolio from "../img/portfolio.png"
-import Resume1 from "../resume/Resume_Vishal_Yadav (2).pdf"
+import Resume1 from "../resume/Resume1 (4).pdf"
 
 
 
