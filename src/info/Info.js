@@ -3,6 +3,7 @@ import book from "../img/book.png"
 import flip from "../img/flip.png"
 import odec from "../img/odec.png"
 import ques from "../img/ques.png"
+import plant from "../img/plant.png"
 import todo from "../img/todo1.png"
 import portfolio from "../img/portfolio.png"
 import Resume1 from "../resume/Resume1.pdf"
@@ -44,7 +45,7 @@ export const info = {
         },
         {
             emoji: '📖',
-            text: '3rd Year INFT Branch'
+            text: 'Final Year INFT Branch'
         },
         {
             emoji: ' 👨‍💻 ',
@@ -145,32 +146,38 @@ export const info = {
         source: "https://github.com/Vishalyadav2709/todo-list-firebase-", // this should be a link to the **repository** of the project, where the code is hosted.
         image: todo
     },
+         {
+            title: "Project 2",
+            live: "https://github.com/Vishalyadav2709/Plant-Nursery",
+            source: "https://github.com/Vishalyadav2709/Plant-Nursery",
+            image: plant
+        },
     {
-        title: "Project 2",
+        title: "Project 3",
         live: "https://yadavvishal.netlify.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
         source: "https://github.com/Vishalyadav2709/portfolio2", // this should be a link to the **repository** of the project, where the code is hosted.
         image: portfolio
     },
         {
-            title: "Project 3",
+            title: "Project 4",
             live: "https://github.com/Vishalyadav2709/Mern-Bookstore", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/Vishalyadav2709/Mern-Bookstore", // this should be a link to the **repository** of the project, where the code is hosted.
             image: book
         },
         {
-            title: "Project 4",
+            title: "Project 5",
             live: "https://reactquestionapp.herokuapp.com/",
             source: "https://github.com/Vishalyadav2709/Question-app",
             image: ques
         },
         {
-            title: "Project 5",
+            title: "Project 6",
             live: "https://vishalyadav2709.github.io/Odec-Infotech/",
             source: "https://github.com/Vishalyadav2709/Odec-Infotech",
             image: odec
         },
         {
-            title: "Project 6",
+            title: "Project 7",
             live: "https://vishalyadav2709.github.io/Flipcart-web/",
             source: "https://github.com/Vishalyadav2709/Flipcart-web",
             image: flip
