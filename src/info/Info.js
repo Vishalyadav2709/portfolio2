@@ -1,4 +1,4 @@
-import self from "../img/self1.jpeg"
+import self from "../img/Vishal Photo.png"
 import book from "../img/book.png"
 import flip from "../img/flip.png"
 import odec from "../img/odec.png"
